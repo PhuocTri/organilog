@@ -18,7 +18,7 @@
     <None Remove="AppResources\Assets\ic_checkbox_checked.png" />
     <None Remove="AppResources\Assets\ic_checkbox_unchecked.png" />
     <None Remove="AppResources\Assets\ic_in_progress.png" />
-    <None Remove="AppResources\Assets\organilog_logo.png" />
+    <None Remove="AppResources\Assets\kingsoft_logo.png" />
     <None Remove="AppResources\Assets\setting.json" />
   </ItemGroup>
 
@@ -39,7 +39,7 @@
     <EmbeddedResource Include="AppResources\Assets\ic_in_progress.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
-    <EmbeddedResource Include="AppResources\Assets\organilog_logo.png">
+    <EmbeddedResource Include="AppResources\Assets\kingsoft_logo.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="AppResources\Assets\setting.json">
