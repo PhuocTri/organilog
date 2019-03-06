@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Organilog.iOS", "Organilog\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Organilog", "Organilog\Organilog\Organilog.csproj", "{B997B4AB-90E1-4A4E-B997-805CEBA4F12E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TinyMVVM", "TinyMVVM\TinyMVVM.csproj", "{7B720E1E-307E-4746-AECC-041073F9A626}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TinyMVVM", "TinyMVVM\TinyMVVM.csproj", "{7B720E1E-307E-4746-AECC-041073F9A626}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

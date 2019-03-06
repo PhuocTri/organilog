@@ -8,7 +8,7 @@ using Xamarin.Forms.PlatformConfiguration.AndroidSpecific;
 
 namespace Organilog.Droid
 {
-    [Activity(Label = "Organilog", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+    [Activity(Label = "Log Work", Icon = "@drawable/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle savedInstanceState)
@@ -20,6 +20,7 @@ namespace Organilog.Droid
 
             Plugin.CurrentActivity.CrossCurrentActivity.Current.Init(this, savedInstanceState);
 
+            Forms.SetFlags("FastRenderers_Experimental");
             Forms.Init(this, savedInstanceState);
 
             // UserDialogs
